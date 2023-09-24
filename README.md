@@ -1,23 +1,40 @@
-# otp-verification-server
+# OTP Verification Server
 
-- otp-verification-server is a Backend part of a dummy application capable of otp-verification.
-- index.js is the main entry point and the server is not deployed on any online site hence server will run on localhost:5050 
-- routes folder has routes to the different URI.
-- Save, modify(on resend OTP, stored otp is changed with new one), delete (on successful verification otp deleted from DB).  
-- models folder has all userModel.js which has the schema of model to store otp.
-- Techs Involved - NodeJS | ExpressJS | MongoDB | Postman | Git
-- Libraries used:  cors | dotenv | express | mongoose | nodemon
+`otp-verification-server` is the backend component of a dummy application designed for OTP (One-Time Password) verification.
 
-## How to Run the server:
+## Overview
 
-Clone the repo and set up the application
+- **Main Entry Point**: `index.js` serves as the primary entry point for the server.
+- **Local Server**: The server is not deployed online and runs locally on `localhost:5050`.
+- **Routes**: The `routes` folder contains different routes handling various URIs. These routes support operations like saving, modifying (resending OTP updates stored OTP), and deleting OTP entries upon successful verification.
+- **Data Models**: The `models` folder houses `userModel.js`, which defines the schema for storing OTP data.
+- **Technology Stack**: Key technologies used include Node.js, Express.js, MongoDB, Postman, and Git.
+- **Libraries**: The server utilizes various libraries, including `cors`, `dotenv`, `express`, `mongoose`, and `nodemon`.
 
-- git clone https://github.com/amankumar-2001/otp-verification-server
-- cd otp-verification-server
-- npm install
-- npm run dev
+## How to Run the Server
 
+To run the server locally, follow these steps:
+
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/amankumar-2001/otp-verification-server
+   ```
+
+2. Navigate to the project directory:
+   ```shell
+   cd otp-verification-server
+   ```
+
+3. Install dependencies:
+   ```shell
+   npm install
+   ```
+
+4. Start the server in development mode:
+   ```shell
+   npm run dev
+   ```
 
 ## Author
 
-- [@amankumar-2001](https://www.github.com/amankumar-2001)
+- [Aman Kumar](https://www.github.com/amankumar-2001)
